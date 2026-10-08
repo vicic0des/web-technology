@@ -1,0 +1,22 @@
+:root {
+  --color-roze: #c339a5;
+  --color-achtergrond: #f1c6eb;
+  --font-tekst: Verdana, sans-serif;
+  --size-tekst: 1rem;
+}
+
+body {
+  background-color: var(--color-achtergrond);
+  font-family: var(--font-tekst);
+  font-size: var(--size-tekst);
+}
+
+nav a {
+  color: var(--color-roze);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
